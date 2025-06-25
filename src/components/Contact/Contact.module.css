@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.number {
+  margin: 0;
+  color: #555;
+}
+
+.button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #e53935;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #c62828;
+}
